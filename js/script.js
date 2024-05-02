@@ -14,3 +14,19 @@ app.component('seanav', {
     templateUrl: 'components/nav.html',
     controller: function seanavCtrl() { }
 });
+
+app.component('seaourtrips', {
+    bindings: {
+        items: '='
+    },
+    templateUrl: 'components/ourtrips.html',
+    controller: function seanavCtrl() { }
+});
+
+app.component('seacircles', {
+    bindings: {
+        items: '='
+    },
+    templateUrl: 'components/circles.html',
+    controller: function seanavCtrl() { }
+});
